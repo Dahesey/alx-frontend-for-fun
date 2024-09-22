@@ -1,0 +1,11 @@
+//Define a variable for text color
+$text-color: #3D3D3D;
+$text-color-red: #FF0000;
+
+//Applying the variables to the body and .red clas within the body tag
+body {
+    color: $text-color;
+    .red {
+        color: $text-color-red;
+    }
+}
