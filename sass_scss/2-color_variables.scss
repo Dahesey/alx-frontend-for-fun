@@ -1,0 +1,19 @@
+//Declare sass variable for text color
+$text-color: #3D3D3D;
+
+//Declare sass variable for background color
+$background-color: #6D6D6D;
+
+//Apply sass vaiables to body, p and h2 tags
+body {
+    color: $text-color;
+    background-color: $background-color;
+}
+
+p {
+    color: $text-color;
+}
+
+h2 {
+    background-color: $background-color;
+}
