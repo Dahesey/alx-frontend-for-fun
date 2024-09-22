@@ -1,0 +1,13 @@
+//Using Mixins to assign values to elements
+@mixin marginLeftRight($property) {
+    margin-left: $property;
+    margin-right: $property;
+}
+
+body {
+    @include marginLeftRight(10px)
+}
+
+div {
+    @include marginLeftRight(15px)
+}
